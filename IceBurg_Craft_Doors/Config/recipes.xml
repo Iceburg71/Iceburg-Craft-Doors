@@ -1,0 +1,48 @@
+<IceBurg>
+	<append xpath="/recipes">
+
+	<!-- raw material recipes for the nicer items -->
+		<!-- door knob -->		
+		<recipe name="resourceDoorKnob" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceMechanicalParts" count="2"/>
+			<ingredient name="resourceScrapBrass" count="20"/>
+		</recipe>
+
+	<!-- recipes for the nicer items -->
+<!-- DOORS... -->
+	<!-- House Front Doors -->
+		<!-- houseFrontDoor1_v1 -->
+		<recipe name="houseFrontDoor1_v1" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceDoorKnob" count="1"/>
+			<ingredient name="resourceWood" count="10"/>
+			<ingredient name="resourcePaint" count="2"/>
+		</recipe>
+		<!-- houseFrontDoor2_v1 -->
+		<recipe name="houseFrontDoor2_v1" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceDoorKnob" count="1"/>
+			<ingredient name="resourceWood" count="10"/>
+			<ingredient name="resourcePaint" count="2"/>
+		</recipe>
+	<!-- Commercial Doors -->
+		<!-- commercialDoor1_v1 -->
+		<recipe name="commercialDoor1_v1" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceDoorKnob" count="1"/>
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourcePaint" count="2"/>
+		</recipe>
+		<!-- commercialDoor2_v1 -->
+		<recipe name="commercialDoor2_v1" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceDoorKnob" count="1"/>
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourcePaint" count="2"/>
+		</recipe>
+		<!-- commercialDoor4_v1 -->
+		<recipe name="commercialDoor4_v1" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceDoorKnob" count="1"/>
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourcePaint" count="2"/>
+			<ingredient name="glassBlockVariantHelper" count="1"/>
+		</recipe>
+
+	</append>
+</IceBurg>
